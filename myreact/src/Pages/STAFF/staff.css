@@ -1,0 +1,18 @@
+/* staff.css */
+
+.staffDiv {
+    text-align: left;
+    padding: 20px;
+}
+
+.h2Staff {
+    margin-top: 20px; /* Add spacing above the heading */
+    margin-bottom: 10px; /* Reduce spacing below the heading */
+    font-size: 1.5rem; /* Adjust size if needed */
+}
+
+.pStaff {
+    margin-top: 0; /* Remove any top margin to align with h2 */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-align: left;
+}

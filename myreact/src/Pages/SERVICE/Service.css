@@ -1,0 +1,132 @@
+body, * {
+    margin: 0;
+    padding:9;
+    position: relative;
+}
+
+.header--service .header--seviceh1 {
+    color: rgb(230, 230, 26);
+    position: absolute;
+    left: 400px;
+    top: 100px ;
+
+}
+
+.header--sevice--quote {
+    color: rgb(230, 230, 26);
+    position: absolute;
+    left: 400px;
+    top: 200px ;
+
+}
+
+.header--service .btnQuote {
+    padding: 10px;
+    border-radius: 12px;
+    position: absolute;
+    left: 700px;
+    top: 200px ;
+    background-color: aqua;
+
+}
+
+/* .header--service .btnQuote:hover {
+     background-color: red;
+}
+
+.service--servicecontent {
+    display: flex;
+    justify-content: center; 
+    padding: 10px; 
+}
+
+.service--servicecontent .flex--content {
+    display: flex;
+    flex-wrap: wrap; 
+    border: solid 1px;
+    gap: 50px;  
+    width: 100%; 
+    margin-top: 20px;
+
+}
+
+.flex--content > * {
+    min-width: 500px; 
+    box-sizing: border-box; 
+    padding: 10px;
+    margin-top: 10px;
+} */
+.service-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.service-header {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service-id {
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.service-name {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.service-price {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+@media (max-width: 768px) {
+    .flex--content > * {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .flex--content > * {
+        flex: 1 1 100%; 
+    }
+}
+
+

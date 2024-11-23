@@ -1,0 +1,21 @@
+
+  /* Header Styling */
+  .h2Contact {
+    font-size: 18px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify; /* Justifies text for a clean, professional appearance */
+    padding: 40px;
+    background-color: #dfdfdf;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Positioning */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  

@@ -1,0 +1,108 @@
+
+.edit-blog-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.edit-blog-header {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.edit-blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.edit-blog-form input,
+.edit-blog-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-blog-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* General Container Styling */
+.edit-service-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.edit-service-header {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.edit-service-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.edit-service-form input,
+.edit-service-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-service-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.addNew{ 
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
